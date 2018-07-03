@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./carousel.css">  
+  </head>
+  <body>
+    <div class="banner-container">
+      <div class="banner-content">
+        <div class="item">
+          <img src="./img/5.jpeg" />
+        </div>
+        <div class="item">
+          <img src="./img/1.jpeg" />
+        </div>
+        <div class="item">
+          <img src="./img/2.jpeg" />
+        </div>
+        <div class="item">
+          <img src="./img/3.jpeg" />
+        </div>
+        <div class="item">
+          <img src="./img/4.jpeg" />
+        </div>
+        <div class="item">
+          <img src="./img/5.jpeg" />
+        </div>
+        <div class="item">
+          <img src="./img/1.jpeg" />
+        </div>
+      </div>
+      <div class="banner-switch">
+        <span class="bullet active"></span>
+        <span class="bullet"></span>
+        <span class="bullet"></span>
+        <span class="bullet"></span>
+        <span class="bullet"></span>
+      </div>
+    </div>
+  </body>
+</html>
+<script src = "./carousel.js"></script>
+<script>
+  window.Carousel(
+    {
+      imgContent: ".banner-content",
+      bul: ".bullet",
+      item: ".item",
+      screenWidth: screen.width,
+    }
+  )
+
+ 
+</script>
